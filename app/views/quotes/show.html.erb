@@ -1,19 +1,27 @@
 <p id="notice"><%= notice %></p>
 
+<div class="panel panel-default">
+<div class="panel-heading">
 <p>
   <strong>Author:</strong>
   <%= @quote.author %>
 </p>
+</div>
 
+<div class="panel-body">
 <p>
   <strong>Quote:</strong>
   <%= @quote.quote %>
 </p>
+</div>
 
+<div class="panel-footer">
 <p>
   <strong>Background:</strong>
   <%= @quote.background %>
 </p>
+</div>
+</div>
 
 <%= link_to 'Edit', edit_quote_path(@quote) %> |
 <%= link_to 'Back', quotes_path %>
