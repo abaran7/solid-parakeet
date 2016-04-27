@@ -19,9 +19,9 @@
         <td><%= quote.author %></td>
         <td><%= quote.quote %></td>
         <td><%= quote.background %></td>
-        <td><%= link_to 'Show', quote %></td>
-        <td><%= link_to 'Edit', edit_quote_path(quote) %></td>
-        <td><%= link_to 'Destroy', quote, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', quote, class: "label label-info" %></td>
+        <td><%= link_to 'Edit', edit_quote_path(quote), class: "label label-warning" %></td>
+        <td><%= link_to 'Destroy', quote, method: :delete, data: { confirm: 'Are you sure?' }, class:"label label-danger" %></td>
       </tr>
     <% end %>
   </tbody>
