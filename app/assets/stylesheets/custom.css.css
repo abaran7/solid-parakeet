@@ -1,0 +1,65 @@
+/*@import "bootstrap-sprockets";
+@import "bootstrap";*/
+
+/* universal */
+
+body {
+  padding-top: 10px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/*typography*/
+
+h1 {
+    color: #00aacc;
+}
+
+p{
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+
+h2 {
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #777;
+}
+
+#external_link {
+    color:#79bcca;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 2.7em;
+  line-height: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 13px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #79bcca;
+  text-decoration: none;
+}
